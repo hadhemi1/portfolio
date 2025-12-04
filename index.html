@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio – Hadhemi Khadhrawi</title>
+  <meta name="description" content="Portfolio de Hadhemi Khadhrawi — Data Science, Deep Learning, projets et contact." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Police Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="data.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- BACKGROUND DÉCO -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <!-- HEADER -->
+  <header class="glass-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-mark">HK</span>
+        <span class="logo-text">Hadhemi<span> Khadhrawi</span></span>
+      </div>
+      <nav class="nav">
+        <a href="#hero">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Compétences</a>
+        <a href="#experience">Expérience</a>
+        <a href="#projects">Projets</a>
+        <a href="#education">Éducation</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn-pill btn-outline" href="#contact">Hire Me</a>
+    </div>
+  </header>
+
+  <!-- CONTENU PRINCIPAL -->
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="section hero-section">
+      <div class="hero-inner">
+        <div class="hero-left reveal-on-scroll">
+          <p class="hero-eyebrow">Hi, I’m</p>
+          <h1 class="hero-title">
+            <span id="hero-name"></span><br />
+            <span class="hero-subtitle-line">
+              Future <span class="accent">Data&nbsp;Scientist</span>
+            </span>
+          </h1>
+          <p id="hero-tagline" class="hero-tagline typewriter"></p>
+
+
+          <div class="hero-actions">
+            <a id="hero-cv-btn" class="btn-pill btn-primary" href="#" download>
+              Télécharger le CV
+            </a>
+            <a class="btn-pill btn-ghost" href="#projects">
+              Voir mes projets
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span class="social-label">Connect with me</span>
+            <div class="social-icons">
+              <a id="social-linkedin" class="glass-icon" href="#" target="_blank" aria-label="LinkedIn">
+                in
+              </a>
+              <!-- Liens placeholder, à adapter si besoin -->
+              <a class="glass-icon" href="#" aria-label="GitHub">GH</a>
+              <a class="glass-icon" href="mailto:khadhrawi.hadhemi@gmail.com" aria-label="Email">@</a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right reveal-on-scroll">
+  <div class="hero-photo-wrap">
+    <div class="hero-photo-orb"></div>
+
+    <div class="hero-photo-card">
+      <div class="hero-photo-glass"></div>
+
+      <img src="photo.png" alt="Photo de profil" class="hero-photo-img" />
+
+      <div class="hero-photo-bottom">
+        <div class="hero-photo-name">
+          <span class="dot-live"></span>
+          <span>Disponible pour un stage PFE</span>
+        </div>
+        <div class="hero-photo-tag">
+          Deep Learning • Medical Imaging
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="section-header reveal-on-scroll">
+        <p class="section-eyebrow">Ce que je sais faire</p>
+        <h2 class="section-title">Services</h2>
+      </div>
+      <div class="cards-grid">
+        <article class="glass-card service-card reveal-on-scroll">
+          <div class="icon-badge">&lt;/&gt;</div>
+          <h3>Deep Learning & Vision</h3>
+          <p>
+            Conception de modèles de Deep Learning pour
+            <strong>imagerie médicale</strong> : U-Net, GAN, CNN, Pix2Pix,
+            évaluation par PSNR, SSIM, F1-score, ROC-AUC, etc.
+          </p>
+          <ul class="tag-list">
+            <li>U-Net</li>
+            <li>Pix2Pix</li>
+            <li>GAN</li>
+            <li>CNN</li>
+          </ul>
+        </article>
+
+        <article class="glass-card service-card reveal-on-scroll">
+          <div class="icon-badge">∑</div>
+          <h3>Data Science & NLP</h3>
+          <p>
+            Analyse de données, classification de texte, fine-tuning de modèles
+            <strong>BERT</strong> et exploitation de jeux de données complexes
+            pour des décisions basées sur les données.
+          </p>
+          <ul class="tag-list">
+            <li>BERT</li>
+            <li>Transformers</li>
+            <li>Classification</li>
+          </ul>
+        </article>
+
+        <article class="glass-card service-card reveal-on-scroll">
+          <div class="icon-badge">⚙</div>
+          <h3>Prototypage & Web Apps</h3>
+          <p>
+            Déploiement d’applications de démonstration en
+            <strong>Flask</strong> ou <strong>Streamlit</strong>,
+            intégration de modèles IA et mise en place de POC rapides.
+          </p>
+          <ul class="tag-list">
+            <li>Flask</li>
+            <li>Streamlit</li>
+            <li>PoC</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-header reveal-on-scroll">
+        <p class="section-eyebrow">Tech I use</p>
+        <h2 class="section-title">Compétences</h2>
+      </div>
+
+      <div class="skills-layout">
+        <div class="glass-card skills-cloud reveal-on-scroll">
+          <h3>Langages & Data</h3>
+          <div id="skills-languages" class="chip-row"></div>
+        </div>
+
+        <div class="glass-card skills-cloud reveal-on-scroll">
+          <h3>Frameworks & Outils IA</h3>
+          <div id="skills-ml" class="chip-row"></div>
+        </div>
+
+        <div class="glass-card skills-cloud reveal-on-scroll">
+          <h3>Outils Dev & Web</h3>
+          <div id="skills-tools" class="chip-row"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-header reveal-on-scroll">
+        <p class="section-eyebrow">Où j’ai appris par la pratique</p>
+        <h2 class="section-title">Expérience</h2>
+      </div>
+      <div id="experience-list" class="timeline">
+        <!-- rempli par JS -->
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-header reveal-on-scroll">
+        <p class="section-eyebrow">Quelques projets clés</p>
+        <h2 class="section-title">Projets</h2>
+      </div>
+      <div id="projects-list" class="cards-grid">
+        <!-- rempli par JS -->
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="section-header reveal-on-scroll">
+        <p class="section-eyebrow">Parcours académique</p>
+        <h2 class="section-title">Éducation & Certifications</h2>
+      </div>
+      <div class="education-grid">
+        <div id="education-list" class="timeline reveal-on-scroll">
+          <!-- rempli par JS -->
+        </div>
+        <div class="glass-card reveal-on-scroll">
+          <h3>Certifications</h3>
+          <ul id="certifications-list" class="bullet-list">
+            <!-- rempli par JS -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-header reveal-on-scroll">
+        <p class="section-eyebrow">Let’s talk</p>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="glass-card reveal-on-scroll">
+          <h3>Informations</h3>
+          <ul class="contact-list">
+            <li><span class="contact-label">Nom</span> <span id="contact-name"></span></li>
+            <li><span class="contact-label">Email</span> <a id="contact-email" href="#"></a></li>
+            <li><span class="contact-label">Téléphone</span> <a id="contact-phone" href="#"></a></li>
+            <li><span class="contact-label">LinkedIn</span> <a id="contact-linkedin" href="#" target="_blank"></a></li>
+          </ul>
+        </div>
+
+        <form class="glass-card contact-form reveal-on-scroll">
+          <h3>Envoyer un message</h3>
+          <p class="contact-note">
+            (Formulaire côté front seulement – à connecter à un backend ou un service tiers si besoin.)
+          </p>
+            <div class="field-row">
+              <label for="contact-form-name">Nom complet</label>
+              <input id="contact-form-name" name="name" type="text" placeholder="Votre nom" required />
+            </div>
+            <div class="field-row">
+              <label for="contact-form-email">Email</label>
+              <input id="contact-form-email" name="email" type="email" placeholder="vous@example.com" required />
+            </div>
+            <div class="field-row">
+              <label for="contact-form-message">Message</label>
+              <textarea id="contact-form-message" name="message" rows="4" placeholder="Expliquez votre besoin…"></textarea>
+            </div>
+          <button type="submit" class="btn-pill btn-primary">Envoyer</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>
+      Designed with ❤️ by
+      <span class="accent">Hadhemi Khadhrawi</span> – All rights reserved.
+    </p>
+  </footer>
+</body>
+</html>
